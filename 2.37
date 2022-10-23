@@ -1,0 +1,12 @@
+num1 = float(input())
+num2 = float(input())
+num3 = float(input())
+num4 = float(input())
+
+''' Type your code here. '''
+product_r = num1 * num2 * num3 * num4
+average_r = (num1 + num2 + num3 + num4) / 4
+product_f = (num1) * (num2) *(num3) * (num4)
+average_f = (num1 + num2 + num3+ num4) / 4
+print(f'{product_f:.0f} {average_f:.0f}')
+print(f'{product_r:.3f} {average_r:.3f}')
